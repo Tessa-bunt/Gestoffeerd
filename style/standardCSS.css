@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'ITCMedium';
+}
+
+@font-face {
+    font-family: 'ITCMedium';
+    src: url('../fonts/font/ITCAvantGardeStd-Md.ttf');
+}
+
+@font-face {
+    font-family: 'ITCBook';
+    src: url('../fonts/font/ITCAvantGardeStd-Bk.ttf');
+}
+
+@font-face {
+    font-family: 'ITCBold';
+    src: url('../fonts/font/ITCAvantGardeStd-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'ITCDemi';
+    src: url('../fonts/font/ITCAvantGardeStd-Demi.ttf');
+}
+
+a{
+    text-decoration: none;
+    
+}
