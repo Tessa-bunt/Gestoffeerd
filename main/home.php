@@ -69,13 +69,6 @@
 
     <?php include '../static/projecten.php' ?>
 
-
-
-
-
-
-
-
     <?php include '../static/footer.php' ?>
 </body>
 

@@ -25,7 +25,12 @@ body {
     src: url('../fonts/font/ITCAvantGardeStd-Demi.ttf');
 }
 
-a{
+a {
     text-decoration: none;
 
+}
+
+.inputField {
+    width: 50%;
+    padding: 10px;
 }
