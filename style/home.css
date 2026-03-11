@@ -1,0 +1,142 @@
+.header {
+    background-image: url("../images/headerBG.png");
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    background-color: #302C29;
+    opacity: 90%;
+    width: 40%;
+    height: 45%;
+    border-radius: 7px;
+    border: white 1px solid;
+}
+
+.startInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.Abutton {
+    background-color: #B23240;
+    padding: 7px 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.floors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 53vh;
+    width: 100vw;
+}
+
+.allFloorOptions {
+    height: 57%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 3%;
+}
+
+.floorOption {
+    background-image: url('../images/floorBG.png');
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 6px;
+}
+
+.floorOption a{
+    color: #FFFFFF;
+    font-family: 'ITCBook';
+}
+
+.floorOption h2{
+    margin: 10px;
+}
+
+.floorOption p{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.floors h1{
+    font-family: 'ITCBook';
+}
+
+.referenties{
+    display: flex;
+    justify-content: center;
+    font-family: 'ITCBook' ;
+    width: 100%;
+    height: 33vh;
+}
+
+.referentie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+}
+
+.referentie a{
+    color: black;
+    text-decoration: underline;
+}
+
+.offerte {
+    background-image: url("../images/offerteBG.png");
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offerte .start .startInfo h1{
+    color: #FFFFFF;
+    font-family: 'ITCBook';
+}
+
+.projecten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.projecten h1{
+    font-family: 'ITCBook';
+    font-size: 28px;
+}
+
+.projectPhotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.projectPhoto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px;
+}

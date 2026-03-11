@@ -14,16 +14,16 @@
         <div class="footerOptions">
             <div class="products">
                 <h1>Producten</h1>
-                <div class="optionVloer">
-                    <a href="">PCV vloer</a>
+                <div class="optionFloor">
+                    <a href="">PCV Vloer</a>
                 </div>
-                <div class="optionVloer">
+                <div class="optionFloor">
                     <a href="">Vloerbedekking</a>
                 </div>
-                <div class="optionVloer">
-                    <a href="">Houten vloer</a>
+                <div class="optionFloor">
+                    <a href="">Houten Vloer</a>
                 </div>
-                <div class="optionVloer">
+                <div class="optionFloor">
                     <a href="">Laminaat</a>
                 </div>
             </div>
