@@ -14,7 +14,7 @@
         <div class="start">
             <div class="startInfo">
                 <h1>Vraag een Offerte aan</h1>
-                <a class="Abutton" href="">Nu Aanvragen</a>
+                <a class="Abutton" href="offerte.php">Nu Aanvragen</a>
             </div>
         </div>
     </div>

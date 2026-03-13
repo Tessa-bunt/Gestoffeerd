@@ -16,7 +16,7 @@
         <div class="start">
             <div class="startInfo">
                 <img src="../images/logo.png">
-                <a class="Abutton" href="">Vraag een Offerte aan</a>
+                <a class="Abutton" href="offerte.php">Vraag een Offerte aan</a>
             </div>
         </div>
     </div>

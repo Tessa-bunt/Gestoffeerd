@@ -2,12 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .contactInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
+}
+
+.contactInfo h1 {
+    color: #302C29;
+    font-family: 'ITCBold';
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contactInfo p {
+    color: #5A5A5A;
+    font-family: 'ITCBook';
+    margin: 5px 0;
 }
 
 .contactFormulier {
@@ -15,22 +30,75 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 45vh;
+    height: auto;
+    padding: 20px;
+}
+
+.contactFormulier h1 {
+    color: #302C29;
+    font-family: 'ITCBold';
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 .contactForm {
     width: 70%;
     display: flex;
     flex-direction: column;
-    height: 100%;
-}
-
-.otherInfo {
-    display: flex;
-    flex-direction: column;
+    gap: 15px;
 }
 
 .name {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+}
+
+.otherInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputField, .inputFieldText {
+    padding: 12px;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+    font-family: 'ITCBook';
+    font-size: 16px;
+    color: #302C29;
+    background-color: #FBFAFA;
+    transition: border-color 0.3s ease;
+}
+
+.otherInfo .inputField {
+    width: 98%;
+}
+
+.inputField:focus, .inputFieldText:focus {
+    outline: none;
+    border-color: #B23240;
+    box-shadow: 0 0 5px rgba(178, 50, 64, 0.5);
+}
+
+.inputFieldText {
+    height: 100px;
+    resize: vertical;
+}
+
+.Abutton {
+    background-color: #B23240;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'ITCBold';
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.Abutton:hover {
+    background-color: #8B1F2F;
 }

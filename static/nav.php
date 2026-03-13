@@ -38,6 +38,9 @@
                 <a href="products.php">Products</a>
             </div>
             <div class="option">
+                <a href="offerte.php">Offerte</a>
+            </div>
+            <div class="option">
                 <a href="onderhoud.php">Onderhoud</s>
             </div>
             <div class="option">
